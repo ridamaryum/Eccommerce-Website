@@ -53,6 +53,18 @@ button.normal{
     outline: none;
     transition: 0.2s ease;
 }
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.2s ease;
+}
+
 body{
     width: 100%;
 }
@@ -306,4 +318,93 @@ body{
 #banner button:hover{
     background-color: #088178;
     color: white;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./img/../banner/b17.jpg);
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2{
+    background-image: url(./img/../banner/b10.jpg);
+}
+
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800px;
+}
+
+#sm-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500px;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    color: white;
+    border: none;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./img/../banner/b7.jpg);
+    min-width: 30px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#banner3 h3{
+    color: red;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#banner3 .banner-box2{
+    background-image: url(./img/../banner/b4.jpg);
+}
+
+#banner3 .banner-box3{
+    background-image: url(./img/../banner/b18.jpg);
 }
