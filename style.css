@@ -475,7 +475,7 @@ footer .col{
 }
 
 footer .logo{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 footer h4{
@@ -493,4 +493,33 @@ footer a{
     text-decoration: none;
     color: #222;
     margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .col-install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .col-install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
 }
