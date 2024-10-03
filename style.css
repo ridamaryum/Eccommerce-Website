@@ -541,7 +541,7 @@ footer .copyright{
     .section-p1{
         padding: 40px 40px;
     }
-    
+
     #navbar {
         display: flex;
         flex-direction: column;
@@ -598,5 +598,12 @@ footer .copyright{
 
     #feature {
         justify-content: space-between;
+    }
+    
+    #product1 .pro-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
     }
 }   
