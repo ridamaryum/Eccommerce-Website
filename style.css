@@ -390,7 +390,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     background-image: url(./img/../banner/b7.jpg);
-    min-width: 30px;
+    min-width: 30%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -601,9 +601,37 @@ footer .copyright{
     }
     
     #product1 .pro-container {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 20px;
-        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 35vh;
+    }
+
+    #banner h2{
+        color: white;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100px;
+        height: 30vh;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    #newsletter .form {
+        width: 70%;
     }
 }   
